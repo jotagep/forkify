@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const javascript = {
     test: /\.js$/,
+    exclude: /node_modules/,
     use: [
         {
             loader: 'babel-loader'
@@ -26,6 +27,8 @@ module.exports = {
         })
     ],
     module: {
-        rules: [javascript]
+        rules: [
+            javascript
+        ]
     }
 }

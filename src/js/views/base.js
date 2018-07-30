@@ -2,7 +2,8 @@ export const elements = {
     searchForm: document.querySelector('.search'),
     searchResults: document.querySelector('.results'),
     resultList: document.querySelector('.results__list'),
-    searchResPage: document.querySelector('.results__pages')
+    searchResPage: document.querySelector('.results__pages'),
+    recipe: document.querySelector('.recipe')
 }
 
 export const elementString = {

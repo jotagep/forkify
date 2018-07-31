@@ -22,8 +22,7 @@ export default class List {
         console.log(`The element ${deleted.ingredient} has been deleted`);
     }
 
-    updateCount (id, newCount) {
-        
+    updateCount (id, newCount) {  
         this.items.find(el => el.id === id).count = newCount;
     }
 };
